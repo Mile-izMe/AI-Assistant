@@ -1,0 +1,6 @@
+sounddevice
+numpy
+soundfile
+openwakeword
+faster-whisper
+requests
