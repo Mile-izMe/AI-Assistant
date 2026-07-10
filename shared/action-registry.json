@@ -1,0 +1,13 @@
+{
+  "actions": [
+    { "action": "open_app", "tier": "LOW", "params": ["spotify"] },
+    { "action": "close_app", "tier": "MEDIUM", "params": ["spotify"] },
+    { "action": "play_music", "tier": "LOW", "params": ["query"] },
+    { "action": "media_control", "tier": "LOW", "params": ["command"] },
+    { "action": "set_volume", "tier": "MEDIUM", "params": ["level"] },
+    { "action": "get_system_stats", "tier": "LOW", "params": [] },
+    { "action": "get_time", "tier": "LOW", "params": [] },
+    { "action": "lock_session", "tier": "HIGH", "params": [] },
+    { "action": "shutdown", "tier": "HIGH", "params": ["delay_seconds"] }
+  ]
+}

@@ -34,7 +34,7 @@ PIPER_MODEL_PATH = "voices/en_US-lessac-medium.onnx"  # download separately, see
 # ---- Init models (do this once, at startup, not per-loop) ----
 print("[init] loading wake word model...")
 oww_model = WakeWordModel(wakeword_models=[WAKE_WORD_MODEL])
-
+    
 print("[init] loading whisper model...")
 stt_model = WhisperModel(WHISPER_MODEL_SIZE, device="cpu", compute_type="int8")
 
